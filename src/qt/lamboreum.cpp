@@ -5,7 +5,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/thooneum-config.h"
+#include "config/lamboreum-config.h"
 #endif
 
 #include "bitcoingui.h"
@@ -96,7 +96,7 @@ static void InitMessage(const std::string &message)
  */
 static std::string Translate(const char* psz)
 {
-    return QCoreApplication::translate("thooneum-core", psz).toStdString();
+    return QCoreApplication::translate("lamboreum-core", psz).toStdString();
 }
 
 static QString GetLangTerritory()
@@ -267,7 +267,7 @@ private:
     void startThread();
 };
 
-#include "thooneum.moc"
+#include "lamboreum.moc"
 
 BitcoinCore::BitcoinCore():
     QObject()
@@ -565,7 +565,7 @@ void BitcoinApplication::shutdownResult()
 
 void BitcoinApplication::handleRunawayException(const QString &message)
 {
-    QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occurred. Thooneum Core can no longer continue safely and will quit.") + QString("\n\n") + message);
+    QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occurred. Lamboreum Core can no longer continue safely and will quit.") + QString("\n\n") + message);
     ::exit(EXIT_FAILURE);
 }
 
@@ -598,8 +598,8 @@ int main(int argc, char *argv[])
     QTextCodec::setCodecForCStrings(QTextCodec::codecForTr());
 #endif
 
-    Q_INIT_RESOURCE(thooneum);
-    Q_INIT_RESOURCE(thooneum_locale);
+    Q_INIT_RESOURCE(lamboreum);
+    Q_INIT_RESOURCE(lamboreum_locale);
 
 #if QT_VERSION > 0x050100
     // Generate high-dpi pixmaps
