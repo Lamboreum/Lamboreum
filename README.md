@@ -1,41 +1,30 @@
 
-What is Thooneum?
+WTF is Lamboreum?
 -------------
-It is a coin developed by myself (timy_g) and our official logo is by https://www.instagram.com/foxpaws_foxywarrior111/ This is mostly for fun and experience. I made it to understand and learn how a blockchain works and is for learning. **Do not expect to make money from this. Any profits made are not intended. I am not liable for ANY losses that may occur.**
+This is a coin "developed" aka "borrowed" code from another crypto Raptoreum, but forked off of Thooneum for the meme. This coin is created by The Mining Mersie. Youtube: https://www.youtube.com/channel/UChyhUk16KJ6ehisnVDj8jRg. I made this because why not and it would be a cool learning experience I guess. **This is a MEME coin nothing more. Don't expect to make a profit out of this and if you do then congrats but if you loose money from this then skill issue. I am not liable for any losses that may occur.
 
 Official resources
 -------------
-##### Official Pool: http://rtm.timyg.org/
-##### Official Explorer: http://rtm.timyg.org:6950/
-##### Download: Download: https://github.com/TimyIsCool/thooneum/releases
+ Official Pool: N/A
+ Official Explorer: N/A
+ Download: Download: N/A
 
 
 Introduction
-Thooneum began as the fairly simple idea, introducing smart contracts which would allow on chain, trustless transfers (goodbye centralized marketplaces) on the Ravencoin codebase, however with the automation of assets and THOON (Thooneum). 
-The project has quickly evolved, adding innovative features that not only further expand the asset layer, but also introduce features that could help other Blockchain projects. Ravencoin unfortunately suffered several serious breaches of its asset layer so that code base has been abandoned by us. We are currently working with and building on Dash code expending its capabilities significantly.
-
-Thooneum is now a code fork of Dash and inherits current and optionally future features such as chain locks, oracles etc. We are further expanding capabilities by adding the following features:
-A)	The deployment of a unique asset layer.
-B)	The option to lock X amount of coins or assets into a special transaction. Coins are unlocked at a block number of choice or timestamp.
-C)	Trustless on chain transfers of assets and native coins VIA Smart Contracts.
-D)	Integrating, developing and deploying a VM protocol that would allow for smart contracts in 4 major programming languages as opposed to the situation with Ethereum being limited to solidity.
-
-These additional features open up the power and ease of use of Thooneum’s features to a greater variety of industries under the Distributed Application umbrella. DAPP's are a critical part of driving widespread adoption as recently seen with DEFI and Thooneum hopes to help provide further alternatives and possibilities for DAPP developers particularly in the field of opening up new programming languages for DAPP and contract development.
-
-It is one of our goals to not only innovate ideas for Thooneum but to contribute back to the general crypto community with open-source features that anybody can use to help their Blockchain projects succeed.
+Lamboreum is a useless coin that has no meaning. However, hopefully one day we will all become magically rich from Elon Musk mentioning this coin so it can moon to get our Lambos.
 
 
 License
 -------
 
-Thooneum Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+Lamboreum Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
 
 Development Process
 -------------------
 
 The `master` branch is meant to be stable. Development is done in separate branches.
-[Tags](https://github.com/CarterSullivan/thooneum/tags) are created to indicate new official,
+[Tags]N/A are created to indicate new official,
 stable release versions of Thooneum Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
@@ -43,10 +32,7 @@ The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
 Testing
 -------
 
-Testing and code review is the bottleneck for development; we get more pull
-requests than we can review and test on short notice. Please be patient and help out by testing
-other people's pull requests, and remember this is a security-critical project where any mistake might cost people
-lots of money.
+Testing? what's that? Wen Lambo?
 
 ### Automated Testing
 
