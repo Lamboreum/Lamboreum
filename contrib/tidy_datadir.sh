@@ -7,7 +7,7 @@ if [ -d "$1" ]; then
   cd "$1"
 else
   echo "Usage: $0 <datadir>" >&2
-  echo "Removes obsolete Thooneum database files" >&2
+  echo "Removes obsolete Lamboreum database files" >&2
   exit 1
 fi
 
@@ -19,22 +19,22 @@ if [ -f wallet.dat -a -f peers.dat -a -f chainstate/CURRENT -a -f blocks/index/C
 
 case $LEVEL in
   0)
-    echo "Error: no Thooneum datadir detected."
+    echo "Error: no Lamboreum datadir detected."
     exit 1
     ;;
   1)
-    echo "Detected old Thooneum datadir (before 0.7)."
+    echo "Detected old Lamboreum datadir (before 0.7)."
     echo "Nothing to do."
     exit 0
     ;;
   2)
-    echo "Detected Thooneum 0.7 datadir."
+    echo "Detected Lamboreum 0.7 datadir."
     ;;
   3)
-    echo "Detected Thooneum pre-0.8 datadir."
+    echo "Detected Lamboreum pre-0.8 datadir."
     ;;
   4)
-    echo "Detected Thooneum 0.8 datadir."
+    echo "Detected Lamboreum 0.8 datadir."
     ;;
 esac
 
