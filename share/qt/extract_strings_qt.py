@@ -11,7 +11,7 @@ import operator
 import os
 import sys
 
-OUT_CPP="qt/thooneumstrings.cpp"
+OUT_CPP="qt/lamboreumstrings.cpp"
 EMPTY=['""']
 
 def parse_po(text):
